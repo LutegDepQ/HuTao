@@ -197,6 +197,8 @@ else:
     BOT_NAME = Config.BOT_NAME
     REPOSITORY = Config.REPOSITORY
     MONGO_DB_URI = Config.MONGO_DB_URI
+    ARQ_API_KEY = Config.ARQ_API_KEY
+    ARQ_API_URL = Config.ARQ_API_URL
 
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
