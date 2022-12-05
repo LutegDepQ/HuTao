@@ -98,7 +98,7 @@ if ENV:
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "")
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", "")
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", "")
-    BANCODES = os.environ.get("BANCODES", "UMM!!")
+    BANCODES = os.environ.get("BANCODES", "")
     REPOSITORY = os.environ.get("REPOSITORY", "https://github.com/KAC-CHAN/TOGA")
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
