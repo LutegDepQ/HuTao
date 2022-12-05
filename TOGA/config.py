@@ -67,6 +67,8 @@ class Config(object):
     BANCODES = ""
     REPOSITORY = "https://github.com/LutegDepQ/HuTao"
     RED7_TOKEN = ""
+    ARQ_API_URL = "arq.hamker.dev"
+    ARQ_API_KEY = "TIYXYO-WXVYTJ-DARAOA-TLQLUA-ARQ"
 
 class Production(Config):
     LOGGER=True
