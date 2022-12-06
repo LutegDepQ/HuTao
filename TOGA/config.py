@@ -19,7 +19,7 @@ class Config(object):
     PORT=8443
     WORKERS=8
     LOAD=""
-    NO_LOAD="translation SUMI"
+    NO_LOAD="translation SUMI heroku"
     MONGO_DB="mongodb://mongo:AGa15Ss8QAIMgnq3ZWGJ@containers-us-west-146.railway.app:7117"
     WEBHOOK=False
     BOT_API_URL="https://api.telegram.org/bot5909830565:AAG9iFyfJS48b28orh8s5eObylTQHs-mSpo/sendMessage?chat_id=<chat_id>&text=<Enter your text here>"
