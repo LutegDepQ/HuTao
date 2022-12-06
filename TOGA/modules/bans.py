@@ -17,7 +17,7 @@ from telegram import TelegramError
 import TOGA.modules.sql.users_sql as sql
 from TOGA.modules.disable import DisableAbleCommandHandler
 from TOGA.modules.helper_funcs.filters import CustomFilters
-from TOGA import DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES, BANCODES, COTB, dispatcher
+from TOGA import DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES, COTB, dispatcher
 from TOGA.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     bot_admin,
@@ -86,9 +86,9 @@ def ban(update: Update, context: CallbackContext) -> str:
         elif user_id in WOLVES:
             message.reply_text("Wolves abilities make them ban immune!")
         elif user_name == {COTB}:
-            message.reply_text("{BANCODES}")
+            message.reply_text("UMM!!")
         elif user_id == 5163444566:
-            message.reply_text("{BANCODES}")
+            message.reply_text("UMM!!")
         else:
             message.reply_text("This user has immunity and cannot be banned.")
         return log_message
